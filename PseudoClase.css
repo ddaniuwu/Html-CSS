@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    color: crimson;
+}
+
+
+nav.contenedor.menu li{
+    display: none;
+    padding: 2px;
+}
+nav.contenedor.menu:hover li {
+    display: block;
+
+}
+li.item p{
+    display: none;
+}
+
+li.item:hover p{
+    display: block;
+    list-style: none;
+    padding: 0;
+}
+
+div.contenedor {
+    margin: auto;
+    padding: 15px;
+    border: 1px solid black;
+    width: 80%;
+    height:20%;
+    background-color: darkmagenta;
+    color: cornsilk;
+}
+
+div.contenedor.descendiente {
+    background-color: rgb(255, 205, 5);
+    color: black;
+}
+div.contenedor.descendiente:hover {
+    
+    background-color: cornsilk;
+    color: black;
+}
+div.contenedor.hijo > p{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+div.contenedor.hijo > p:hover{
+    background-color:cornsilk;
+}
+
+div.contenedor.oculto p{
+    background-color: darkorange;
+    display: none;
+}
+
+div.contenedor.oculto:hover p{
+    display: block;
+    color:cornsilk;
+    padding:15px
+}
+
+div.contenedor.primero p:first-child{
+    margin-top:2px;
+    font-variant: small-caps;
+}
+
+div.contenedor.parrafo p{
+    display: none;
+}
+
+div.contenedor.parrafo:hover p{
+    display: block;
+    padding: 5px;
+}
+
+legend{
+    text-align: left;
+}

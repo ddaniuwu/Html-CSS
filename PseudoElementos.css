@@ -1,0 +1,33 @@
+div.contenedor{
+    text-align: center;
+}
+
+div.contenedor.principal p {
+    color:blueviolet;
+    padding: 20px;
+    border: 1px solid black;
+    margin: auto;
+    width: 70%;
+    height: 30%;
+}
+div.contenedor.principal p::selection {
+    color: rgb(114, 255, 71);
+    background-color: rgb(245, 0, 245);
+}
+
+div.contenedor.principal p::first-line{
+    font-variant: small-caps;
+    color: black;
+}
+div.contenedor.principal p::first-letter{
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+div.contenedor p::before{
+    content: " - ";
+}
+
+div.contenedor p::after{
+    content: " - ";
+}
